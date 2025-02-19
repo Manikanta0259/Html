@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HTML Lists</title>
+</head>
+<body>
+    <h1>HTML Lists </h1>
+    <H2>There are FOUR types of lists</H2>
+
+    <h2>1. Ordered List</h2>
+    <ol>
+        <li>vegtables</li>
+        <li>fruits</li>
+        <li>groceries</li>
+    </ol>
+
+    <h2>2.  Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Carrot</li>
+    </ul>
+
+    <h2>3. Nested list</h2>
+    <ul>
+        <li><h2>fruits</h2>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>4. Definition List</h2>
+    <dl>
+        <dt><b><u>HTML</u></b></dt>
+
+        <dd>The standard language for creating web pages.</dd>
+        <dt><U><B>CSS</B></U></dt>
+
+        <dd>A style sheet</dd>
+        <dt><U><B>JAVASCRIPT</B></U></dt>
+
+        <dd>Skeleton of HTML and CSS</dd>
+    </dl>
+</body>
+</html>
