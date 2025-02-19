@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+    <title>Target Attributes</title>
+</head>
+<body>
+    <h1>HTML Target Attribute</h1>
+    <p>Click the links below to see how the <code>target</code>atrribute works</p>
+
+    <h2>1. Open in the same Tab (Default)</h2>
+    <a href = "https://www.w3schools.com/Html/" target="_self">HTML(same tab)</a>
+
+    <h2>2. Open in new tab</h2>
+    <a href="https://www.w3schools.com/java/"target="_blank">java(new tab)</a>
+
+    <h2>3. Open in Parent frame</h2>
+    <p>(This is only relevent if using frames or iframes)</p>
+    <a href="https://www.w3schools.com/mysql/" target="_parent">  mysql (Parent frame)</a>
+    
+    <h2>4. Open in full windows</h2>
+    <a href="https://www.w3schools.com/c/" target="_top"> c  (Full Windows)</a>
+
+    <h2>5. Open in a namedframe or tab</h2>
+    <a href="https://www.w3schools.com/python/" target="myframe"> python (Named Frame or Tab)</a>
+</body>
+</htmL>
