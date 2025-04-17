@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Image Insertion</title>
+   <style>
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+  </style>
+</head>
+<body>
+<h1>Car image</h1>
+  <div>
+    <a href="https://chat.openai.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" class="profile-image">
+        </a>
+<a href="https://images.app.goo.gl/D7h9zdSupmds7Rv36"target="_blank">
+<img
+src="https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png"alt="Candidate3"width="500"height="400">
+</a>
+    </div>
+</body>
+</html>
