@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>CSS Selectors Example</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ } 
+ .highlight { 
+ background-color: rgb(255, 255, 50); 
+ } 
+ #unique { 
+ color: rgb(0, 17, 255); 
+ } 
+ .container p { 
+  color: red;
+
+ } 
+ .container > p {
+   background-color: rgb(252, 159,55); 
+   margin : 1px;
+    border: 2px solid rgb(0, 114, 0);
+   padding :10px;
+ } 
+ a:hover { 
+ font-style : italic;
+ } 
+ p::first-line { 
+ font-weight: bold; 
+ } 
+ input[type="text"] { 
+ border: 2px solid rgb(0, 114, 0); 
+ } 
+ </style> 
+</head> 
+<body> 
+ <div class="container"> 
+ <p>Mahendra Singh Dhoni</p> 
+ </div> 
+ <p id="unique">A legendary figure in the world of cricket. Born on July 7, 1981, in Ranchi, 
+India, Dhoni is celebrated for his exceptional skills as a wicket-keeper, batsman, and captain. He is 
+often referred to by his nicknames "Mahi," "Thala," and "Captain Cool" due to his calm demeanor 
+under pressure.</p> 
+ <p class="highlight">Dhoni's cricketing journey began with his debut for the Indian cricket team 
+in 2004. He quickly rose to prominence and became the captain of the Indian team in limited-overs 
+formats in 2007 and in Test cricket in 2008. Under his leadership, India achieved remarkable 
+success, including winning the ICC T20 World Cup in 2007, the ICC Cricket World Cup in 2011, 
+and the ICC Champions Trophy in 2013. 
+ In addition to his international success, Dhoni has been a key player in the Indian Premier 
+League (IPL), leading the Chennai Super Kings (CSK) to multiple titles. He is known for his 
+strategic acumen, finishing abilities, and remarkable consistency. 
+ 
+ Dhoni retired from international cricket in 2019 but continues to play in the IPL. His 
+contributions to Indian cricket have earned him numerous accolades, including the Padma Bhushan, 
+Padma Shri, and Major Dhyan Chand Khel Ratna Award.</p>
+  <a href="https://en.wikipedia.org/wiki/MS_Dhoni">MSDhoniwiki</a> 
+ <input type="text" value="Sample text"> 
+</body> 
+</html>
