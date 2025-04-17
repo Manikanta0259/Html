@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>
+    image gallery
+  </title>
+<style>
+img{
+border:10px solid rgb(255,0,255);
+border-radius:10px;
+padding:5px;
+  margin: 10px;
+width:150px;
+}
+</style>
+</head>
+<body>
+<h1>Thumbnail Image</h1>
+<p>Click on the image to enlarge it.</p>
+<a target="_parent"href="Car1.jpg">
+<img src="bjfg.jpg"alt="Event Gallery" style="width:250px; height:150px" title="Click on the image to
+enlarge it.">
+</a>
+<a target="_parent"href="Car2.jpg">
+<img src="Car2.jpg"alt="Event Gallery" style="width:250px; height:150px" title="Click on the image to
+enlarge it.">
+</a>
+<a target="_parent"href="Car3.jpg">
+<img src="Car3.jpg"alt="Event Gallery" style="width:250px; height:150px" title="Click on the image to
+enlarge it.">
+</a>
+<a target="_parent"href="Car4.jpg">
+<img src="Car4.jpg"alt="Event Gallery" style="width:250px; height:150px" title="Click on the image to
+enlarge it.">
+</a>
+</body>
+</html>
