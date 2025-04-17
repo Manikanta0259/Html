@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Voter Verification</title> 
+ <style>
+  h2{
+    text-align: center;
+  }
+  </style>
+</head> 
+<body> 
+ <script> 
+ let name = prompt("Enter your name:"); 
+ let age = prompt("Enter your age:"); 
+ let canVote;
+if (age >= 18) {
+  canVote = "Yes";
+} else {
+  canVote = "No";
+}
+ document.write(` 
+ <h2>Voter Details</h2> 
+ <table border="9"> 
+ <tr><th>Name</th><td>${name}</td></tr> 
+ <tr><th>Age</th><td>${age}</td></tr> 
+ <tr><th>Eligible to Vote</th><td>${canVote}</td></tr> 
+ </table> 
+ `); 
+ </script> 
+</body> 
+</html>
